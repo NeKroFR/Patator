@@ -11,8 +11,8 @@ ffmpeg was not found :
 
 5) go to Control Panel \ System and Security \ System
 
-6)advanced system settings  
-  environment variable 
-  path
-   new
+6)advanced \ system \settings  \
+  environment \ variable \
+  path \
+   new \
    select the ffmpeg folder and select the bin folder
