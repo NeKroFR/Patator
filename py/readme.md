@@ -8,4 +8,7 @@ If you have knowledge in PY and you wan't to help me in this project,you can con
 ###########################################################################################################
 FR
 ###########################################################################################################
+
 Je vais bientôt poster les fichiers ;)
+
+Si tu as des connaissances en PY et que tu veux m'aider sur ce projet,tu peux me contacter sur ce serveur discord : https://discord.gg/EN9sv4d
