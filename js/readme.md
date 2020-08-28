@@ -1,4 +1,4 @@
-# EN
+## EN
 ---
 
 Hi,my name is NeKro.
@@ -13,7 +13,7 @@ If you have knowledge in JS  and you wan't to help me in this project,you can co
 
 
 
-#FR
+## FR
 ---
 
 Salut,je m'apelle NeKro
