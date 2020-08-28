@@ -52,7 +52,7 @@ async def changeStatus():
 @bot.event
 async def on_member_join(member):
     channel = bot.get_channel(746407943246708778)
-    await channel.send('hi!!')
+    await channel.send(f'{member.mention} WELCOME!\nhave fun on this server :D')
 #comands
 
 ###################################################
