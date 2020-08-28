@@ -51,8 +51,8 @@ async def changeStatus():
 #WELCOME
 @bot.event
 async def on_member_join(member):
-    channel = discord.utils.get(member.guild.channels, name="welcome")
-	await channel.send("welcome")
+    channel = bot.get_channel(746407943246708778)
+    await channel.send('hi!!')
 #comands
 
 ###################################################
@@ -278,7 +278,6 @@ async def unban(ctx, user, *reason):
 	await ctx.send(f"The user {user} is not ban")
 
 #!warn
-
 
 
 
