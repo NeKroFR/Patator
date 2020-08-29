@@ -37,7 +37,6 @@
 ---
 ## Version: 0.7.5
 ---
-
 -You can add the bot in your server with !invite
 
 -The bot send a welcome message to the new users
