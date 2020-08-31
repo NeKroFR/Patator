@@ -214,6 +214,14 @@ async def play(ctx, url):
 ##########   ADMIN   ##############################
 ###################################################
 
+#!addrole_rolename
+@bot.command()
+async def addrole_new_role(ctx):
+    role =  discord.utils.get(ctx.author.guild.roles, name='new role')
+    await ctx.author.add_roles(role)
+    await ctx.send(f"{ctx.author} was given {role}")
+
+
 #!clear
 
 @bot.command()
