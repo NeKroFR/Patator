@@ -5,6 +5,7 @@
 - You can add the bot in your server with !invite
 - The bot send a welcome message to the new users
 - You can had a role (new role)for exemple with !addrole_new_role 
+- You can remove a role (new role)for exemple with !removerole_new_role 
 
 ---
 ## Version: 0.6.5
