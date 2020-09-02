@@ -1,5 +1,5 @@
 #BOT CREATED BY NeKro
-#Version 0.7.5
+#Version 0.7.8
 
 #######################################################################################################################################################################################################################################################################
 Token="enter here the token of your bot"
@@ -214,10 +214,11 @@ async def play(ctx, url):
 ##########   ADMIN   ##############################
 ###################################################
 
-#!addrole_rolename
+#!addrole "rolename"
 @bot.command()
-async def addrole_new_role(ctx):
-    role =  discord.utils.get(ctx.author.guild.roles, name='new role')
+async def addrole(ctx, *rolenames):
+    
+    role =  discord.utils.get(ctx.author.guild.roles, name=rolenames[0])
     await ctx.author.add_roles(role)
     await ctx.send(f"{ctx.author} was given {role}")
 
@@ -228,8 +229,6 @@ async def removerole_new_role(ctx):
     await ctx.author.remove_roles(role)
     await ctx.send(f"{ctx.author} was remove {role}")
 
-
-
 #!clear
 
 @bot.command()
@@ -238,8 +237,6 @@ async def clear(ctx, nombre : int):
 	messages = await ctx.channel.history(limit = nombre + 1).flatten()
 	for message in messages:
 		await message.delete()
-
-
 
 
 
