@@ -1,5 +1,11 @@
 # Here you can see the updates of the versions of the project 🙂
 ---
+## Version 0.7.8
+---
+- You can had any role  with !addrole "rolename"
+- You can remove any role with !removerole "rolename"
+
+
 ## Version: 0.7.5
 ---
 - You can add the bot in your server with !invite
