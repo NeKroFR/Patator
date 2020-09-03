@@ -224,10 +224,12 @@ async def addrole(ctx, *rolenames):
 
 #!removerole_rolename
 @bot.command()
-async def removerole_new_role(ctx):
-    role =  discord.utils.get(ctx.author.guild.roles, name='new role')
+async def removerole(ctx, *rolenames):
+    
+    role =  discord.utils.get(ctx.author.guild.roles, name=rolenames[0])
     await ctx.author.remove_roles(role)
-    await ctx.send(f"{ctx.author} was remove {role}")
+    await ctx.send(f"{ctx.author} was removed {role}")
+
 
 #!clear
 
