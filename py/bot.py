@@ -60,12 +60,13 @@ async def on_member_join(member):
 ###################################################
 
 
-
 #!help
 @bot.command()
 async def help(ctx):
-	await ctx.send("**Wait,we work on it :wink: **")
-
+	embed=discord.Embed(title="HERE", url="https://github.com/NeKroFR/Patator/blob/master/py/updates.md")
+	embed.set_author(name="You can found all my command's")
+	embed.set_thumbnail(url="https://ec.europa.eu/programmes/erasmus-plus/sites/erasmusplus2/files/styles/erasmus__rewamp_overview/public/help-adults-job-thumb.jpg?itok=GhyHapi3")
+	await ctx.send(embed = embed)
 #!invite
 @bot.command()
 async def invite(ctx):
