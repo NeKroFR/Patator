@@ -2,6 +2,7 @@
 ---
 ## Version 0.7.8
 ---
+- !help send you to this page
 - You can had any role  with !addrole "rolename"
 - You can remove any role with !removerole "rolename"
 
