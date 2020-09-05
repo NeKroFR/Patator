@@ -86,8 +86,7 @@ async def invite(ctx):
 
 @bot.command()
 async def credit(ctx):
-	await ctx.send("**Creator :** @[TPB]NeKro#7781**\n\nDeveloper :** @[TPB]NeKro#7781 \n\n**Designer :** @[TPB]NeKro#7781")
-
+	await ctx.send("This guy is my creator: https://github.com/NeKroFR")
 #!serverInfo
 @bot.command()
 async def serverInfo(ctx):
