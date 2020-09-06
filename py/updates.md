@@ -4,8 +4,8 @@
 ---
 - !credit refers you to my GitHub page
 - !help send you to this page
-- You can had any role  with !addrole "rolename"      ⚠️⚠️⚠️NO PERMISSION REQUIERD⚠️⚠️⚠️
-- You can remove any role with !removerole "rolename" ⚠️⚠️⚠️NO PERMISSION REQUIERD⚠️⚠️⚠️
+- You can had any role  with !addrole "rolename"⚠️⚠️⚠️NO PERMISSION REQUIERD⚠️⚠️⚠️
+- You can remove any role with !removerole "rolename"⚠️⚠️⚠️NO PERMISSION REQUIERD⚠️⚠️⚠️
 
 
 ## Version: 0.7.5
