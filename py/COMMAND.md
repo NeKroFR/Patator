@@ -28,4 +28,3 @@
 - He can unban users with !unban
 - You can had any role  with !addrole "rolename"⚠️⚠️⚠️NO PERMISSION REQUIERD⚠️⚠️⚠️
 - You can remove any role with !removerole "rolename"⚠️⚠️⚠️NO PERMISSION REQUIERD⚠️⚠️⚠️
-
