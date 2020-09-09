@@ -3,7 +3,7 @@
 ## Version 0.7.8
 ---
 - !credit refers you to my GitHub page
-- !help send you to this page
+- !help send you to COMMAND.md 
 - You can had any role  with !addrole "rolename"⚠️⚠️⚠️NO PERMISSION REQUIERD⚠️⚠️⚠️
 - You can remove any role with !removerole "rolename"⚠️⚠️⚠️NO PERMISSION REQUIERD⚠️⚠️⚠️
 
