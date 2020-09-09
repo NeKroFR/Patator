@@ -4,7 +4,7 @@ I will soon update the files ;)
 
 If you have knowledge in PY and you wan't to help me in this project,you can contact me on this discord server : https://discord.gg/EN9sv4d
 
-##FR
+## FR
 ---
 
 Je vais bientôt mettre à jour les fichiers ;)
