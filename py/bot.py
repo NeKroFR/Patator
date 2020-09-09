@@ -63,7 +63,7 @@ async def on_member_join(member):
 #!help
 @bot.command()
 async def help(ctx):
-	embed=discord.Embed(title="HERE", url="https://github.com/NeKroFR/Patator/blob/master/py/updates.md")
+	embed=discord.Embed(title="HERE", url="https://github.com/NeKroFR/Patator/blob/master/py/COMMAND.md")
 	embed.set_author(name="You can found all my command's")
 	embed.set_thumbnail(url="https://ec.europa.eu/programmes/erasmus-plus/sites/erasmusplus2/files/styles/erasmus__rewamp_overview/public/help-adults-job-thumb.jpg?itok=GhyHapi3")
 	await ctx.send(embed = embed)
