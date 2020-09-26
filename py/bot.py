@@ -247,9 +247,7 @@ async def clear(ctx, nombre : int):
 @commands.has_permissions(manage_messages = True)
 
 async def purge(ctx):
-	messages = await ctx.channel.history(limit = 1000000).flatten()
-	for message in messages:
-		await message.delete()
+	await ctx.channel.purge()
 
 #!kick
 @bot.command()
